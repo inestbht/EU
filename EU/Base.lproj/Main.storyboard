@@ -76,7 +76,7 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="DgM-oD-EJZ">
-                                                    <rect key="frame" x="19" y="4" width="281" height="34"/>
+                                                    <rect key="frame" x="18" y="4" width="282" height="34"/>
                                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                     <textInputTraits key="textInputTraits"/>
@@ -96,7 +96,7 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="6cN-Nb-0H3">
-                                                    <rect key="frame" x="19" y="5" width="281" height="34"/>
+                                                    <rect key="frame" x="18" y="5" width="282" height="34"/>
                                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                     <textInputTraits key="textInputTraits"/>
@@ -130,7 +130,11 @@
                                 <action selector="cancelButtonPressed:" destination="Sdm-em-VHM" id="z7D-Lr-dHk"/>
                             </connections>
                         </barButtonItem>
-                        <barButtonItem key="rightBarButtonItem" systemItem="save" id="Ma6-xx-9uy"/>
+                        <barButtonItem key="rightBarButtonItem" systemItem="save" id="Ma6-xx-9uy">
+                            <connections>
+                                <segue destination="u5P-3X-hyd" kind="unwind" unwindAction="unwindFromDetailWithSegue:" id="QAY-aI-9zC"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                     <connections>
                         <outlet property="capitalField" destination="6cN-Nb-0H3" id="YrX-5U-e3F"/>
@@ -139,6 +143,7 @@
                     </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="TSH-Lp-kwk" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <exit id="u5P-3X-hyd" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="3020.625" y="138.38028169014083"/>
         </scene>
