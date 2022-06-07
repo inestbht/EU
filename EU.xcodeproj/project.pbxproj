@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8E5AA553284F1EE900C222E0 /* ListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E5AA552284F1EE900C222E0 /* ListTableViewCell.swift */; };
 		8E5B7038284D95FA0057ACFA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E5B7037284D95FA0057ACFA /* AppDelegate.swift */; };
 		8E5B703A284D95FA0057ACFA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E5B7039284D95FA0057ACFA /* SceneDelegate.swift */; };
 		8E5B703C284D95FA0057ACFA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E5B703B284D95FA0057ACFA /* ViewController.swift */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8E5AA552284F1EE900C222E0 /* ListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTableViewCell.swift; sourceTree = "<group>"; };
 		8E5B7034284D95FA0057ACFA /* EU.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EU.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E5B7037284D95FA0057ACFA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8E5B7039284D95FA0057ACFA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -65,6 +67,7 @@
 				8EB792BB284E85F000C4B74B /* Nation.swift */,
 				8E5B703B284D95FA0057ACFA /* ViewController.swift */,
 				8E5B708D284DB5230057ACFA /* DetailTableViewController.swift */,
+				8E5AA552284F1EE900C222E0 /* ListTableViewCell.swift */,
 				8E5B703D284D95FA0057ACFA /* Main.storyboard */,
 				8E5B7040284D95FB0057ACFA /* Assets.xcassets */,
 				8E5B7042284D95FB0057ACFA /* LaunchScreen.storyboard */,
@@ -149,6 +152,7 @@
 				8EB792BC284E85F000C4B74B /* Nation.swift in Sources */,
 				8E5B7038284D95FA0057ACFA /* AppDelegate.swift in Sources */,
 				8E5B703A284D95FA0057ACFA /* SceneDelegate.swift in Sources */,
+				8E5AA553284F1EE900C222E0 /* ListTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
